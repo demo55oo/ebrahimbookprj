@@ -7,7 +7,7 @@ import "../styles/App.css";
 
 // clerk
 import {
-  ClerkProvider,
+  // ClerkProvider,
   SignedIn,
   SignedOut,
   RedirectToSignIn,
@@ -64,10 +64,10 @@ function MyApp({ Component, pageProps }) {
   });
 
   return (
-    <ClerkProvider
-      frontendApi={clerkFrontendAPI}
-      navigate={(to) => router.push(to)}
-    >
+    // <ClerkProvider
+    //   frontendApi={clerkFrontendAPI}
+    //   navigate={(to) => router.push(to)}
+    // >
       <div
         className={`w-full h-full overflow-x-hidden ${
           darkMode ? "dark text-white" : "light"
@@ -88,7 +88,7 @@ function MyApp({ Component, pageProps }) {
           </>
         )}
       </div>
-    </ClerkProvider>
+    // </ClerkProvider>
   );
 }
 

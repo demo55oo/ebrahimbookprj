@@ -88,13 +88,11 @@ const index = () => {
             </p>
             <div className="flex mt-3">
               <Link href="/app">
-                <a>
                   <StylishBtn
                     text="Try Now"
                     icon1={<FiZap className="text-xl ml-2" />}
                     icon={<FiZap className="text-xl ml-2 text-[#fff]" />}
                   />
-                </a>
               </Link>
 
               <div className="ml-1">

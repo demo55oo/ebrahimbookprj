@@ -13,7 +13,7 @@ export const getTemplate = (id) => {
       fontFamily: "Playfair-Display",
       color: "#ddd",
       fontWeight: 300,
-      text: "written by @saviomartin",
+      text: "written by ebrahim",
       lineHeight: 60,
     },
     background: {

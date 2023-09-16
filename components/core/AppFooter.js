@@ -32,20 +32,20 @@ const AppFooter = () => {
           href="/"
           className="ml-1 font-bold text-gradient bg-app-graient-to-l border-b-2 border-[#ae64db] dark:border-[#52fdbc]"
         >
-          Savio Martin
+          Ebrahim sameh
         </a>
       </h1>
-      <Btn href="https://github.com/saviomartin/loficlub">
+      {/* <Btn href="https://github.com/saviomartin/loficlub">
         <h1 className="text-[16px] font-normal dark:text-[#fafafa] flex items-center">
           <FiGithub className="text-xl" />
           <a
             href="/"
             className="ml-1 font-bold text-gradient bg-app-graient-to-l border-[#ae64db] dark:border-[#52fdbc] capitalize"
           >
-            {starCount} Stars
+           
           </a>
         </h1>
-      </Btn>
+      </Btn> */}
     </div>
   );
 };

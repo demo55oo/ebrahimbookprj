@@ -21,13 +21,11 @@ const Header = () => (
     <div className="flex items-center">
       <SignedOut>
         <Link href="/sign-in">
-          <a>
             <StylishBtn
               text="Sign In"
               icon1={<FiArrowRight className="text-xl ml-2" />}
               icon={<FiArrowRight className="text-xl ml-2 text-[#fff]" />}
             />
-          </a>
         </Link>
       </SignedOut>
       <SignedIn>

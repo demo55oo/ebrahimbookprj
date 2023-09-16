@@ -11,7 +11,7 @@ const MetaTags = () => {
       <meta name="theme-color" content="#d73e87" />
 
       <title>
-        Slickr - Try the most powerful cover image designer for hashnode blog
+        Booky - Try the most powerful cover image designer for books
       </title>
       <meta
         name="description"

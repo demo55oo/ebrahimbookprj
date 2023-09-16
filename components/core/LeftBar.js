@@ -78,7 +78,6 @@ const LeftBar = ({ data, setData, children, setChildren }) => {
       <div className="h-full bg-[#fff] border-r border-[#564BB330] dark:border-[#fafafa20] white-light-shadow py-3 flex flex-col items-center justify-between dark:bg-[#182341]">
         <div className="w-full flex flex-col h-auto items-center justify-center">
           <Link href="/">
-            <a>
               <img
                 src="/assets/logo.png"
                 alt="Logo"
@@ -86,7 +85,6 @@ const LeftBar = ({ data, setData, children, setChildren }) => {
                 width="50"
                 className="mb-3 mt-3"
               />
-            </a>
           </Link>
           <Tabs
             value={value}
@@ -106,12 +104,12 @@ const LeftBar = ({ data, setData, children, setChildren }) => {
           </Tabs>
         </div>
         <div className="w-[65px] h-[50px] lg:w-[85px] lg:h-[60px] flex flex-col items-center justify-center">
-          <Btn href={twitterShareLink}>
+          {/* <Btn href={twitterShareLink}>
             <div className="w-[70px] h-[60px] bg-[#0F84B425] rounded-md flex flex-col items-center justify-center text-[#0F84B4]">
               <FiTwitter className="text-lg lg:text-xl xl:text-xl mb-1" />
               <h3 className="text-xs font-medium lowercase">Share</h3>
             </div>
-          </Btn>
+          </Btn> */}
         </div>
       </div>
       <div className="w-full h-full flex items-center justify-start flex-col py-3 overflow-y-scroll">
